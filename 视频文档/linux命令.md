@@ -1,0 +1,3 @@
+- tail -f ../logs/wrapper.log   查看日志
+- ps aux|grep java      查看java进程
+- lsof -i:8030   列出谁在使用某个端口(https://www.cnblogs.com/sparkbj/p/7161669.html
