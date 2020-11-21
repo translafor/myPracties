@@ -10,12 +10,23 @@ public class Test03 {
 
         }.t3s();
 
-        new IN3(){
-            @Override
-            public void hello() {
-                System.out.println("sss");
-            }
-        }.hello();
+//        new IN3(){
+//            @Override
+//            public void hello() {
+//                System.out.println("sss");
+//            }
+
+//            @Override
+//            public void ht() {
+//
+//            }
+//        }.hello();
+
+       IN3 in3 =  ()->{
+
+               System.out.println("sss");
+        };
+       in3.hello();
     }
 }
 
@@ -28,4 +39,5 @@ class T3{
 
 interface IN3{
     void hello();
+//    void ht();
 }
