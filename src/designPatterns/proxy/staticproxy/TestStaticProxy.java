@@ -11,4 +11,11 @@ package designPatterns.proxy.staticproxy;
 public class TestStaticProxy {
 
     //  https://www.cnblogs.com/cC-Zhou/p/9525638.html
+
+    public static void main(String[] args) {
+        Student student = new Student();
+
+        new Proxy(student).soutName();
+    }
+
 }
